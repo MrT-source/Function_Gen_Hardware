@@ -1,0 +1,224 @@
+m255
+K4
+z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+!s12c _opt
+R1
+!s11e vcom 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dC:/Users/TejN/Documents/Degree/ELEE1156/Function_Generator_2
+T_opt
+!i145 1
+!i144 0
+!s110 1795348170
+Vd@W8C==dgUOFD=KV=FCOI3
+04 10 14 work sinelut_tb sinelut_tb_arc 1
+=1-4c82a918caa7-6b02d6c9-2fa-63e4
+R1
+Z3 !s12f OEM100
+Z4 !s12b OEM100
+Z5 !s124 OEM10U2 
+Z6 !s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z7 tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+Z8 OL;O;2025.2;82
+R2
+T_opt1
+!i145 1
+!i144 0
+!s110 1795350655
+VBe]H;Ubi[>3QGAB;HiZfk3
+04 6 10 work nco_tb nco_tb_arc 1
+=1-4c82a918caa7-6b02e07e-25b-1818
+R1
+R3
+R4
+R5
+R6
+o-quiet -auto_acc_if_foreign -work work +acc
+R7
+n@_opt1
+R8
+Enco
+Z9 w1794737520
+Z10 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z11 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z12 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 16
+Z13 dC:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN
+Z14 8C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/NCO.vhd
+Z15 FC:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/NCO.vhd
+l0
+Z16 L31 1
+VS5RNRzmNSKXjL8dkckf6n2
+!s100 oF:dLkYMgDF[311k0gAJe0
+Z17 OL;C;2025.2;82
+32
+Z18 !s110 1795350645
+!i10b 1
+Z19 !s108 1795350645.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/NCO.vhd|
+Z21 !s107 C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/NCO.vhd|
+!i113 0
+Z22 o-work work -2002 -explicit
+Z23 tExplicit 1 CvgOpt 0 defaultOptions 1083072464
+Anco_architecture
+R10
+R11
+R12
+DEx4 work 3 nco 0 22 S5RNRzmNSKXjL8dkckf6n2
+!i122 16
+l58
+L54 21
+V3QPZPn_2EGUEzjMlh8z4k2
+!s100 PU28o;ZlkMi5X8mVPKA_Y0
+R17
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Enco_tb
+Z24 w1795350635
+R10
+R11
+R12
+!i122 19
+R13
+Z25 8C:\Users\TejN\Documents\Degree\ELEE1156\FUNCTION_GEN\NCO_tb.vhd
+Z26 FC:\Users\TejN\Documents\Degree\ELEE1156\FUNCTION_GEN\NCO_tb.vhd
+l0
+L5 1
+V:C_0QP^`SzfW5b:?;kD@_0
+!s100 bB6NUk0FBI@S_i>a`<O:@1
+R17
+32
+R18
+!i10b 1
+R19
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\TejN\Documents\Degree\ELEE1156\FUNCTION_GEN\NCO_tb.vhd|
+Z28 !s107 C:\\Users\\TejN\\Documents\\Degree\\ELEE1156\\FUNCTION_GEN\\NCO_tb.vhd|
+!i113 0
+R22
+R23
+Anco_tb_arc
+R10
+R11
+R12
+DEx4 work 6 nco_tb 0 22 :C_0QP^`SzfW5b:?;kD@_0
+!i122 19
+l26
+L8 60
+VzQn1cNM:MF?TCgY?fTn]l0
+!s100 mA8kOgCBbG:@4:<:`dS891
+R17
+32
+R18
+!i10b 1
+R19
+R27
+R28
+!i113 0
+R22
+R23
+Esinelut
+Z29 w1795343485
+R10
+R11
+R12
+!i122 17
+R13
+Z30 8C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/SINELUT.vhd
+Z31 FC:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/SINELUT.vhd
+l0
+R16
+Ve>;M^zf_j9Gj^25;C0S[N1
+!s100 M5bbCkQXPiALF[mZ6aLjI0
+R17
+32
+R18
+!i10b 1
+R19
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/SINELUT.vhd|
+Z33 !s107 C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/SINELUT.vhd|
+!i113 0
+R22
+R23
+Asinelut_architecture
+R10
+R11
+R12
+DEx4 work 7 sinelut 0 22 e>;M^zf_j9Gj^25;C0S[N1
+!i122 17
+l90
+L51 52
+V7Skf^G;YO:z02K?aE[InI2
+!s100 ^6RnBS`QFzNzmEE1eWKL;2
+R17
+32
+R18
+!i10b 1
+R19
+R32
+R33
+!i113 0
+R22
+R23
+Esinelut_tb
+Z34 w1795346294
+R10
+R11
+R12
+!i122 18
+R13
+Z35 8C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/SINELUT_tb.vhd
+Z36 FC:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/SINELUT_tb.vhd
+l0
+L5 1
+Ve`5a_`:3_IaKiXlS1^C3V3
+!s100 Ijgi[8gUEUOOUi0^GKVW;2
+R17
+32
+R18
+!i10b 1
+R19
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/SINELUT_tb.vhd|
+Z38 !s107 C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/SINELUT_tb.vhd|
+!i113 0
+R22
+R23
+Asinelut_tb_arc
+R10
+R11
+R12
+DEx4 work 10 sinelut_tb 0 22 e`5a_`:3_IaKiXlS1^C3V3
+!i122 18
+l23
+L8 46
+VVgT^PAV9D8B`I=]90BZlB0
+!s100 fkZS^SEBg[6U?bGMdgPge2
+R17
+32
+R18
+!i10b 1
+R19
+R37
+R38
+!i113 0
+R22
+R23

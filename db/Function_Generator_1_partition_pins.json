@@ -1,0 +1,297 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "TPWM",
+					"strict" : false
+				},
+				{
+					"name" : "SPWM",
+					"strict" : false
+				},
+				{
+					"name" : "STPWM",
+					"strict" : false
+				},
+				{
+					"name" : "PWM",
+					"strict" : false
+				},
+				{
+					"name" : "LED9",
+					"strict" : false
+				},
+				{
+					"name" : "LED8",
+					"strict" : false
+				},
+				{
+					"name" : "LED7",
+					"strict" : false
+				},
+				{
+					"name" : "LED6",
+					"strict" : false
+				},
+				{
+					"name" : "LED5",
+					"strict" : false
+				},
+				{
+					"name" : "LED0",
+					"strict" : false
+				},
+				{
+					"name" : "LED1",
+					"strict" : false
+				},
+				{
+					"name" : "SQR",
+					"strict" : false
+				},
+				{
+					"name" : "F_D[5]",
+					"strict" : false
+				},
+				{
+					"name" : "F_D[3]",
+					"strict" : false
+				},
+				{
+					"name" : "F_D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "F_D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "F_D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HUNDRED[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HUNDRED[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HUNDRED[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HUNDRED[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HUNDRED[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HUNDRED[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HUNDRED[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LUT_OUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LUT_OUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LUT_OUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LUT_OUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LUT_OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LUT_OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LUT_OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LUT_OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ONE[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ONE[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ONE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ONE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ONE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ONE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ONE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "TEN[6]",
+					"strict" : false
+				},
+				{
+					"name" : "TEN[5]",
+					"strict" : false
+				},
+				{
+					"name" : "TEN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "TEN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "TEN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "TEN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "TEN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "TEN_THOUSAND[5]",
+					"strict" : false
+				},
+				{
+					"name" : "TEN_THOUSAND[4]",
+					"strict" : false
+				},
+				{
+					"name" : "TEN_THOUSAND[3]",
+					"strict" : false
+				},
+				{
+					"name" : "TEN_THOUSAND[0]",
+					"strict" : false
+				},
+				{
+					"name" : "THOUSAND[6]",
+					"strict" : false
+				},
+				{
+					"name" : "THOUSAND[5]",
+					"strict" : false
+				},
+				{
+					"name" : "THOUSAND[4]",
+					"strict" : false
+				},
+				{
+					"name" : "THOUSAND[3]",
+					"strict" : false
+				},
+				{
+					"name" : "THOUSAND[2]",
+					"strict" : false
+				},
+				{
+					"name" : "THOUSAND[1]",
+					"strict" : false
+				},
+				{
+					"name" : "THOUSAND[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SW8",
+					"strict" : false
+				},
+				{
+					"name" : "SW0",
+					"strict" : false
+				},
+				{
+					"name" : "KEY_0",
+					"strict" : false
+				},
+				{
+					"name" : "SW5",
+					"strict" : false
+				},
+				{
+					"name" : "SW7",
+					"strict" : false
+				},
+				{
+					"name" : "SW4",
+					"strict" : false
+				},
+				{
+					"name" : "SW6",
+					"strict" : false
+				},
+				{
+					"name" : "SW3",
+					"strict" : false
+				},
+				{
+					"name" : "SW9",
+					"strict" : false
+				},
+				{
+					"name" : "SW1",
+					"strict" : false
+				},
+				{
+					"name" : "SW2",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "KEY3",
+					"strict" : false
+				},
+				{
+					"name" : "KEY2",
+					"strict" : false
+				},
+				{
+					"name" : "KEY1",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,149 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2025  Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus Prime License Agreement,
+# the Altera IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Altera and sold by Altera or its authorized distributors.  Please
+# refer to the Altera Software License Subscription Agreements 
+# on the Quartus Prime software download page.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+# Date created = 10:41:29  October 25, 2026
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Function_Generator_1_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Intel recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY Function_Generator_1
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 25.1STD.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:41:29  OCTOBER 25, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "25.1std.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name BOARD "DE1-SoC Board"
+set_global_assignment -name EDA_SIMULATION_TOOL "Questa Altera FPGA (VHDL)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_AD12 -to SW5
+set_location_assignment PIN_AD11 -to SW4
+set_location_assignment PIN_AF10 -to SW3
+set_location_assignment PIN_AF9 -to SW2
+set_location_assignment PIN_AE12 -to SW9
+set_location_assignment PIN_AD10 -to SW8
+set_location_assignment PIN_AC9 -to SW7
+set_location_assignment PIN_AE11 -to SW6
+set_location_assignment PIN_AC12 -to SW1
+set_location_assignment PIN_AK26 -to STPWM
+set_location_assignment PIN_AG26 -to SPWM
+set_location_assignment PIN_AK24 -to PWM
+set_location_assignment PIN_AH24 -to LUT_OUT[0]
+set_location_assignment PIN_AJ27 -to LUT_OUT[1]
+set_location_assignment PIN_AK28 -to LUT_OUT[2]
+set_location_assignment PIN_AJ26 -to LUT_OUT[3]
+set_location_assignment PIN_AH25 -to LUT_OUT[4]
+set_location_assignment PIN_AJ24 -to LUT_OUT[5]
+set_location_assignment PIN_AG23 -to LUT_OUT[6]
+set_location_assignment PIN_AH23 -to LUT_OUT[7]
+set_location_assignment PIN_AA14 -to KEY_0
+set_location_assignment PIN_Y16 -to KEY3
+set_location_assignment PIN_W15 -to KEY2
+set_location_assignment PIN_AA15 -to KEY1
+set_location_assignment PIN_AF14 -to CLK
+set_location_assignment PIN_AK29 -to TPWM
+set_location_assignment PIN_AB12 -to SW0
+set_location_assignment PIN_AE26 -to ONE[0]
+set_location_assignment PIN_AE27 -to ONE[1]
+set_location_assignment PIN_AE28 -to ONE[2]
+set_location_assignment PIN_AG27 -to ONE[3]
+set_location_assignment PIN_AF28 -to ONE[4]
+set_location_assignment PIN_AG28 -to ONE[5]
+set_location_assignment PIN_AH28 -to ONE[6]
+set_location_assignment PIN_AD26 -to THOUSAND[0]
+set_location_assignment PIN_AJ29 -to TEN[0]
+set_location_assignment PIN_AH29 -to TEN[1]
+set_location_assignment PIN_AH30 -to TEN[2]
+set_location_assignment PIN_AG30 -to TEN[3]
+set_location_assignment PIN_AF29 -to TEN[4]
+set_location_assignment PIN_AF30 -to TEN[5]
+set_location_assignment PIN_AD27 -to TEN[6]
+set_location_assignment PIN_AB23 -to HUNDRED[0]
+set_location_assignment PIN_AE29 -to HUNDRED[1]
+set_location_assignment PIN_AD29 -to HUNDRED[2]
+set_location_assignment PIN_AC28 -to HUNDRED[3]
+set_location_assignment PIN_AD30 -to HUNDRED[4]
+set_location_assignment PIN_AC29 -to HUNDRED[5]
+set_location_assignment PIN_AC30 -to HUNDRED[6]
+set_location_assignment PIN_AC27 -to THOUSAND[1]
+set_location_assignment PIN_AD25 -to THOUSAND[2]
+set_location_assignment PIN_AC25 -to THOUSAND[3]
+set_location_assignment PIN_AB28 -to THOUSAND[4]
+set_location_assignment PIN_AB25 -to THOUSAND[5]
+set_location_assignment PIN_AB22 -to THOUSAND[6]
+set_location_assignment PIN_AA24 -to TEN_THOUSAND[0]
+set_location_assignment PIN_Y23 -to TEN_THOUSAND[1]
+set_location_assignment PIN_Y24 -to TEN_THOUSAND[2]
+set_location_assignment PIN_W22 -to TEN_THOUSAND[3]
+set_location_assignment PIN_W24 -to TEN_THOUSAND[4]
+set_location_assignment PIN_V23 -to TEN_THOUSAND[5]
+set_location_assignment PIN_W25 -to TEN_THOUSAND[6]
+set_location_assignment PIN_V25 -to F_D[0]
+set_location_assignment PIN_AA28 -to F_D[1]
+set_location_assignment PIN_Y27 -to F_D[2]
+set_location_assignment PIN_AB27 -to F_D[3]
+set_location_assignment PIN_AB26 -to F_D[4]
+set_location_assignment PIN_AA26 -to F_D[5]
+set_location_assignment PIN_AA25 -to F_D[6]
+set_location_assignment PIN_V16 -to LED0
+set_location_assignment PIN_W16 -to LED1
+set_location_assignment PIN_W19 -to LED5
+set_location_assignment PIN_Y19 -to LED6
+set_location_assignment PIN_W20 -to LED7
+set_location_assignment PIN_W21 -to LED8
+set_location_assignment PIN_Y21 -to LED9
+set_location_assignment PIN_AK23 -to SQR
+set_global_assignment -name BDF_FILE Function_Generator_1.bdf
+set_global_assignment -name VHDL_FILE B_8_Counter.vhd
+set_global_assignment -name VHDL_FILE NCO.vhd
+set_global_assignment -name VHDL_FILE Comparator_32.vhd
+set_global_assignment -name VHDL_FILE Comparator_8.vhd
+set_global_assignment -name VHDL_FILE B_32_Counter.vhd
+set_global_assignment -name VHDL_FILE SINELUT.vhd
+set_global_assignment -name VHDL_FILE TRIANGLELUT.vhd
+set_global_assignment -name VHDL_FILE CLOCK_DIVIDER.vhd
+set_global_assignment -name VHDL_FILE B_8_UD_COUNTER.vhd
+set_global_assignment -name VHDL_FILE ROUTER.vhd
+set_global_assignment -name VHDL_FILE CNTRL.vhd
+set_global_assignment -name VHDL_FILE F_D.vhd
+set_global_assignment -name VHDL_FILE sseg.vhd
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
