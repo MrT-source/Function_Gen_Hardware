@@ -1,5 +1,5 @@
 Fitter report for Function_Generator_1
-Sun Nov 22 11:47:28 2026
+Tue Nov 24 20:02:53 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -65,7 +65,7 @@ on the Quartus Prime software download page.
 +-----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                    ;
 +---------------------------------+-------------------------------------------------+
-; Fitter Status                   ; Successful - Sun Nov 22 11:47:28 2026           ;
+; Fitter Status                   ; Successful - Tue Nov 24 20:02:53 2026           ;
 ; Quartus Prime Version           ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                   ; Function_Generator_1                            ;
 ; Top-level Entity Name           ; Function_Generator_1                            ;
@@ -219,7 +219,7 @@ on the Quartus Prime software download page.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/output_files/Function_Generator_1.pin.
+The pin-out file can be found in C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/output_files/Function_Generator_1.pin.
 
 
 +------------------------------------------------------------------------------------------+
@@ -2412,23 +2412,23 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.42 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.40 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:04
-Info (144001): Generated suppressed messages file C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/output_files/Function_Generator_1.fit.smsg
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:03
+Info (144001): Generated suppressed messages file C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/output_files/Function_Generator_1.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 7433 megabytes
-    Info: Processing ended: Sun Nov 22 11:47:28 2026
-    Info: Elapsed time: 00:01:08
-    Info: Total CPU time (on all processors): 00:05:13
+    Info: Peak virtual memory: 7439 megabytes
+    Info: Processing ended: Tue Nov 24 20:02:54 2026
+    Info: Elapsed time: 00:01:13
+    Info: Total CPU time (on all processors): 00:05:12
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/output_files/Function_Generator_1.fit.smsg.
+The suppressed messages can be found in C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/output_files/Function_Generator_1.fit.smsg.
 
 

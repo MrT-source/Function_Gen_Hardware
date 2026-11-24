@@ -49,7 +49,7 @@ END NCO;
 -- The architecture on every rising clock edge checks the if rst is low and sets the output values to 0. 
 -- when en is high, and rst is not active, the frequency tuning word is added to the increment value. 
 -- the updated increment's(phase accumulator) 8 MSB bits are used as a counter/lookup address. 
--- increments msb is used as a square wave output at set frequencies.
+-- msb is used as a square wave output at set frequencies.
 
 ARCHITECTURE NCO_architecture OF NCO IS
 	SIGNAL INCREMENT : UNSIGNED(31 DOWNTO 0) := (OTHERS => '0');

@@ -41,6 +41,8 @@ END F_D;
 
 --  Architecture Body
 
+-- set the ouput to F when in Frequency mode and D when in Duty Cycle mode.
+
 ARCHITECTURE F_D_architecture OF F_D IS
 
 

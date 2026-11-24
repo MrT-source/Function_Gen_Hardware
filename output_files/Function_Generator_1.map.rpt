@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Function_Generator_1
-Sun Nov 22 11:46:19 2026
+Tue Nov 24 20:01:40 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -59,7 +59,7 @@ on the Quartus Prime software download page.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Nov 22 11:46:19 2026           ;
+; Analysis & Synthesis Status     ; Successful - Tue Nov 24 20:01:40 2026           ;
 ; Quartus Prime Version           ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                   ; Function_Generator_1                            ;
 ; Top-level Entity Name           ; Function_Generator_1                            ;
@@ -190,50 +190,50 @@ on the Quartus Prime software download page.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                              ;
-+----------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                    ; Library ;
-+----------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------------------+---------+
-; Function_Generator_1.bdf         ; yes             ; User Block Diagram/Schematic File  ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/Function_Generator_1.bdf   ;         ;
-; B_8_Counter.vhd                  ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/B_8_Counter.vhd            ;         ;
-; NCO.vhd                          ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/NCO.vhd                    ;         ;
-; Comparator_8.vhd                 ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/Comparator_8.vhd           ;         ;
-; SINELUT.vhd                      ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/SINELUT.vhd                ;         ;
-; TRIANGLELUT.vhd                  ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/TRIANGLELUT.vhd            ;         ;
-; ROUTER.vhd                       ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/ROUTER.vhd                 ;         ;
-; CNTRL.vhd                        ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd                  ;         ;
-; F_D.vhd                          ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/F_D.vhd                    ;         ;
-; sseg.vhd                         ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/sseg.vhd                   ;         ;
-; lpm_divide.tdf                   ; yes             ; Megafunction                       ; c:/altera_lite/25.1std/quartus/libraries/megafunctions/lpm_divide.tdf           ;         ;
-; abs_divider.inc                  ; yes             ; Megafunction                       ; c:/altera_lite/25.1std/quartus/libraries/megafunctions/abs_divider.inc          ;         ;
-; sign_div_unsign.inc              ; yes             ; Megafunction                       ; c:/altera_lite/25.1std/quartus/libraries/megafunctions/sign_div_unsign.inc      ;         ;
-; aglobal251.inc                   ; yes             ; Megafunction                       ; c:/altera_lite/25.1std/quartus/libraries/megafunctions/aglobal251.inc           ;         ;
-; db/lpm_divide_lbm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_divide_lbm.tdf      ;         ;
-; db/sign_div_unsign_rlh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/sign_div_unsign_rlh.tdf ;         ;
-; db/alt_u_div_sve.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/alt_u_div_sve.tdf       ;         ;
-; db/lpm_divide_65m.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_divide_65m.tdf      ;         ;
-; db/sign_div_unsign_9nh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/sign_div_unsign_9nh.tdf ;         ;
-; db/alt_u_div_o2f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/alt_u_div_o2f.tdf       ;         ;
-; db/lpm_divide_a2m.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_divide_a2m.tdf      ;         ;
-; db/sign_div_unsign_dkh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/sign_div_unsign_dkh.tdf ;         ;
-; db/alt_u_div_0te.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/alt_u_div_0te.tdf       ;         ;
-; db/lpm_divide_ibm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_divide_ibm.tdf      ;         ;
-; db/sign_div_unsign_olh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/sign_div_unsign_olh.tdf ;         ;
-; db/alt_u_div_mve.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/alt_u_div_mve.tdf       ;         ;
-; db/lpm_divide_4am.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_divide_4am.tdf      ;         ;
-; db/sign_div_unsign_akh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/sign_div_unsign_akh.tdf ;         ;
-; db/alt_u_div_qse.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/alt_u_div_qse.tdf       ;         ;
-; db/lpm_divide_3dm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_divide_3dm.tdf      ;         ;
-; db/lpm_divide_vcm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_divide_vcm.tdf      ;         ;
-; db/sign_div_unsign_5nh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/sign_div_unsign_5nh.tdf ;         ;
-; db/alt_u_div_g2f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/alt_u_div_g2f.tdf       ;         ;
-; db/lpm_divide_jpo.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_divide_jpo.tdf      ;         ;
-; db/abs_divider_sbg.tdf           ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/abs_divider_sbg.tdf     ;         ;
-; db/alt_u_div_80f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/alt_u_div_80f.tdf       ;         ;
-; db/lpm_abs_on9.tdf               ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_abs_on9.tdf         ;         ;
-; db/lpm_abs_8p9.tdf               ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_abs_8p9.tdf         ;         ;
-+----------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                       ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                             ; Library ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------+---------+
+; Function_Generator_1.bdf         ; yes             ; User Block Diagram/Schematic File  ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/Function_Generator_1.bdf   ;         ;
+; B_8_Counter.vhd                  ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/B_8_Counter.vhd            ;         ;
+; NCO.vhd                          ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/NCO.vhd                    ;         ;
+; Comparator_8.vhd                 ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/Comparator_8.vhd           ;         ;
+; SINELUT.vhd                      ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/SINELUT.vhd                ;         ;
+; TRIANGLELUT.vhd                  ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/TRIANGLELUT.vhd            ;         ;
+; ROUTER.vhd                       ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/ROUTER.vhd                 ;         ;
+; CNTRL.vhd                        ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd                  ;         ;
+; F_D.vhd                          ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/F_D.vhd                    ;         ;
+; sseg.vhd                         ; yes             ; User VHDL File                     ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/sseg.vhd                   ;         ;
+; lpm_divide.tdf                   ; yes             ; Megafunction                       ; c:/altera_lite/25.1std/quartus/libraries/megafunctions/lpm_divide.tdf                    ;         ;
+; abs_divider.inc                  ; yes             ; Megafunction                       ; c:/altera_lite/25.1std/quartus/libraries/megafunctions/abs_divider.inc                   ;         ;
+; sign_div_unsign.inc              ; yes             ; Megafunction                       ; c:/altera_lite/25.1std/quartus/libraries/megafunctions/sign_div_unsign.inc               ;         ;
+; aglobal251.inc                   ; yes             ; Megafunction                       ; c:/altera_lite/25.1std/quartus/libraries/megafunctions/aglobal251.inc                    ;         ;
+; db/lpm_divide_lbm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_divide_lbm.tdf      ;         ;
+; db/sign_div_unsign_rlh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/sign_div_unsign_rlh.tdf ;         ;
+; db/alt_u_div_sve.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/alt_u_div_sve.tdf       ;         ;
+; db/lpm_divide_65m.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_divide_65m.tdf      ;         ;
+; db/sign_div_unsign_9nh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/sign_div_unsign_9nh.tdf ;         ;
+; db/alt_u_div_o2f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/alt_u_div_o2f.tdf       ;         ;
+; db/lpm_divide_a2m.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_divide_a2m.tdf      ;         ;
+; db/sign_div_unsign_dkh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/sign_div_unsign_dkh.tdf ;         ;
+; db/alt_u_div_0te.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/alt_u_div_0te.tdf       ;         ;
+; db/lpm_divide_ibm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_divide_ibm.tdf      ;         ;
+; db/sign_div_unsign_olh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/sign_div_unsign_olh.tdf ;         ;
+; db/alt_u_div_mve.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/alt_u_div_mve.tdf       ;         ;
+; db/lpm_divide_4am.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_divide_4am.tdf      ;         ;
+; db/sign_div_unsign_akh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/sign_div_unsign_akh.tdf ;         ;
+; db/alt_u_div_qse.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/alt_u_div_qse.tdf       ;         ;
+; db/lpm_divide_3dm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_divide_3dm.tdf      ;         ;
+; db/lpm_divide_vcm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_divide_vcm.tdf      ;         ;
+; db/sign_div_unsign_5nh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/sign_div_unsign_5nh.tdf ;         ;
+; db/alt_u_div_g2f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/alt_u_div_g2f.tdf       ;         ;
+; db/lpm_divide_jpo.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_divide_jpo.tdf      ;         ;
+; db/abs_divider_sbg.tdf           ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/abs_divider_sbg.tdf     ;         ;
+; db/alt_u_div_80f.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/alt_u_div_80f.tdf       ;         ;
+; db/lpm_abs_on9.tdf               ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_abs_on9.tdf         ;         ;
+; db/lpm_abs_8p9.tdf               ; yes             ; Auto-Generated Megafunction        ; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_abs_8p9.tdf         ;         ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -752,51 +752,51 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
-    Info: Processing started: Sun Nov 22 11:46:12 2026
+    Info: Processing started: Tue Nov 24 20:01:33 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Function_Generator_2 -c Function_Generator_1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file function_generator_1.bdf
     Info (12023): Found entity 1: Function_Generator_1
 Info (12021): Found 2 design units, including 1 entities, in source file b_8_counter.vhd
-    Info (12022): Found design unit 1: B_8_Counter-B_8_Counter_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/B_8_Counter.vhd Line: 50
-    Info (12023): Found entity 1: B_8_Counter File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/B_8_Counter.vhd Line: 31
+    Info (12022): Found design unit 1: B_8_Counter-B_8_Counter_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/B_8_Counter.vhd Line: 50
+    Info (12023): Found entity 1: B_8_Counter File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/B_8_Counter.vhd Line: 31
 Info (12021): Found 2 design units, including 1 entities, in source file nco.vhd
-    Info (12022): Found design unit 1: NCO-NCO_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/NCO.vhd Line: 54
-    Info (12023): Found entity 1: NCO File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/NCO.vhd Line: 31
+    Info (12022): Found design unit 1: NCO-NCO_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/NCO.vhd Line: 54
+    Info (12023): Found entity 1: NCO File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/NCO.vhd Line: 31
 Info (12021): Found 2 design units, including 1 entities, in source file comparator_32.vhd
-    Info (12022): Found design unit 1: Comparator_32-Comparator_32_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/Comparator_32.vhd Line: 45
-    Info (12023): Found entity 1: Comparator_32 File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/Comparator_32.vhd Line: 30
+    Info (12022): Found design unit 1: Comparator_32-Comparator_32_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/Comparator_32.vhd Line: 45
+    Info (12023): Found entity 1: Comparator_32 File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/Comparator_32.vhd Line: 30
 Info (12021): Found 2 design units, including 1 entities, in source file comparator_8.vhd
-    Info (12022): Found design unit 1: Comparator_8-Comparator_8_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/Comparator_8.vhd Line: 47
-    Info (12023): Found entity 1: Comparator_8 File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/Comparator_8.vhd Line: 31
+    Info (12022): Found design unit 1: Comparator_8-Comparator_8_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/Comparator_8.vhd Line: 47
+    Info (12023): Found entity 1: Comparator_8 File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/Comparator_8.vhd Line: 31
 Info (12021): Found 2 design units, including 1 entities, in source file b_32_counter.vhd
-    Info (12022): Found design unit 1: B_32_Counter-B_32_Counter_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/B_32_Counter.vhd Line: 46
-    Info (12023): Found entity 1: B_32_Counter File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/B_32_Counter.vhd Line: 30
+    Info (12022): Found design unit 1: B_32_Counter-B_32_Counter_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/B_32_Counter.vhd Line: 46
+    Info (12023): Found entity 1: B_32_Counter File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/B_32_Counter.vhd Line: 30
 Info (12021): Found 2 design units, including 1 entities, in source file sinelut.vhd
-    Info (12022): Found design unit 1: SINELUT-SINELUT_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/SINELUT.vhd Line: 51
-    Info (12023): Found entity 1: SINELUT File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/SINELUT.vhd Line: 31
+    Info (12022): Found design unit 1: SINELUT-SINELUT_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/SINELUT.vhd Line: 51
+    Info (12023): Found entity 1: SINELUT File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/SINELUT.vhd Line: 31
 Info (12021): Found 2 design units, including 1 entities, in source file trianglelut.vhd
-    Info (12022): Found design unit 1: TRIANGLELUT-TRIANGLELUT_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/TRIANGLELUT.vhd Line: 48
-    Info (12023): Found entity 1: TRIANGLELUT File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/TRIANGLELUT.vhd Line: 31
+    Info (12022): Found design unit 1: TRIANGLELUT-TRIANGLELUT_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/TRIANGLELUT.vhd Line: 48
+    Info (12023): Found entity 1: TRIANGLELUT File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/TRIANGLELUT.vhd Line: 31
 Info (12021): Found 2 design units, including 1 entities, in source file clock_divider.vhd
-    Info (12022): Found design unit 1: CLOCK_DIVIDER-CLOCK_DIVIDER_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CLOCK_DIVIDER.vhd Line: 47
-    Info (12023): Found entity 1: CLOCK_DIVIDER File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CLOCK_DIVIDER.vhd Line: 30
+    Info (12022): Found design unit 1: CLOCK_DIVIDER-CLOCK_DIVIDER_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CLOCK_DIVIDER.vhd Line: 47
+    Info (12023): Found entity 1: CLOCK_DIVIDER File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CLOCK_DIVIDER.vhd Line: 30
 Info (12021): Found 2 design units, including 1 entities, in source file b_8_ud_counter.vhd
-    Info (12022): Found design unit 1: B_8_UD_COUNTER-B_8_UD_COUNTER_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/B_8_UD_COUNTER.vhd Line: 47
-    Info (12023): Found entity 1: B_8_UD_COUNTER File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/B_8_UD_COUNTER.vhd Line: 31
+    Info (12022): Found design unit 1: B_8_UD_COUNTER-B_8_UD_COUNTER_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/B_8_UD_COUNTER.vhd Line: 47
+    Info (12023): Found entity 1: B_8_UD_COUNTER File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/B_8_UD_COUNTER.vhd Line: 31
 Info (12021): Found 2 design units, including 1 entities, in source file router.vhd
-    Info (12022): Found design unit 1: ROUTER-ROUTER_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/ROUTER.vhd Line: 52
-    Info (12023): Found entity 1: ROUTER File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/ROUTER.vhd Line: 31
+    Info (12022): Found design unit 1: ROUTER-ROUTER_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/ROUTER.vhd Line: 52
+    Info (12023): Found entity 1: ROUTER File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/ROUTER.vhd Line: 31
 Info (12021): Found 2 design units, including 1 entities, in source file cntrl.vhd
-    Info (12022): Found design unit 1: CNTRL-CNTRL_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 60
-    Info (12023): Found entity 1: CNTRL File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 31
+    Info (12022): Found design unit 1: CNTRL-CNTRL_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 60
+    Info (12023): Found entity 1: CNTRL File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 31
 Info (12021): Found 2 design units, including 1 entities, in source file f_d.vhd
-    Info (12022): Found design unit 1: F_D-F_D_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/F_D.vhd Line: 44
-    Info (12023): Found entity 1: F_D File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/F_D.vhd Line: 30
+    Info (12022): Found design unit 1: F_D-F_D_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/F_D.vhd Line: 44
+    Info (12023): Found entity 1: F_D File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/F_D.vhd Line: 30
 Info (12021): Found 2 design units, including 1 entities, in source file sseg.vhd
-    Info (12022): Found design unit 1: SSEG-sseg_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/sseg.vhd Line: 36
-    Info (12023): Found entity 1: SSEG File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/sseg.vhd Line: 29
+    Info (12022): Found design unit 1: SSEG-sseg_architecture File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/sseg.vhd Line: 36
+    Info (12023): Found entity 1: SSEG File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/sseg.vhd Line: 29
 Info (12127): Elaborating entity "Function_Generator_1" for the top level hierarchy
 Info (12128): Elaborating entity "Comparator_8" for hierarchy "Comparator_8:inst7"
 Info (12128): Elaborating entity "TRIANGLELUT" for hierarchy "TRIANGLELUT:inst5"
@@ -808,116 +808,116 @@ Info (12128): Elaborating entity "SSEG" for hierarchy "SSEG:inst2"
 Info (12128): Elaborating entity "F_D" for hierarchy "F_D:inst23"
 Info (12128): Elaborating entity "ROUTER" for hierarchy "ROUTER:inst21"
 Info (278001): Inferred 13 megafunctions from design logic
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Div3" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 245
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Mod4" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 245
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Mod2" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 243
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Mod0" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 236
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Div2" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 244
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Mod3" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 244
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Div1" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 237
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Mod1" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 237
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Div5" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 247
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Mod6" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 247
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Div4" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 246
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Mod5" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 246
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Div0" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 233
-Info (12130): Elaborated megafunction instantiation "CNTRL:inst9|lpm_divide:Div3" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 245
-Info (12133): Instantiated megafunction "CNTRL:inst9|lpm_divide:Div3" with the following parameter: File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 245
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Div3" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 245
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Mod4" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 245
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Mod2" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 243
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Mod0" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 236
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Div2" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 244
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Mod3" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 244
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Div1" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 237
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Mod1" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 237
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Div5" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 247
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Mod6" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 247
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Div4" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 246
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Mod5" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 246
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "CNTRL:inst9|Div0" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 233
+Info (12130): Elaborated megafunction instantiation "CNTRL:inst9|lpm_divide:Div3" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 245
+Info (12133): Instantiated megafunction "CNTRL:inst9|lpm_divide:Div3" with the following parameter: File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 245
     Info (12134): Parameter "LPM_WIDTHN" = "14"
     Info (12134): Parameter "LPM_WIDTHD" = "7"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_lbm.tdf
-    Info (12023): Found entity 1: lpm_divide_lbm File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_divide_lbm.tdf Line: 25
+    Info (12023): Found entity 1: lpm_divide_lbm File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_divide_lbm.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_rlh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_rlh File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/sign_div_unsign_rlh.tdf Line: 25
+    Info (12023): Found entity 1: sign_div_unsign_rlh File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/sign_div_unsign_rlh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_sve.tdf
-    Info (12023): Found entity 1: alt_u_div_sve File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/alt_u_div_sve.tdf Line: 23
-Info (12130): Elaborated megafunction instantiation "CNTRL:inst9|lpm_divide:Mod4" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 245
-Info (12133): Instantiated megafunction "CNTRL:inst9|lpm_divide:Mod4" with the following parameter: File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 245
+    Info (12023): Found entity 1: alt_u_div_sve File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/alt_u_div_sve.tdf Line: 23
+Info (12130): Elaborated megafunction instantiation "CNTRL:inst9|lpm_divide:Mod4" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 245
+Info (12133): Instantiated megafunction "CNTRL:inst9|lpm_divide:Mod4" with the following parameter: File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 245
     Info (12134): Parameter "LPM_WIDTHN" = "14"
     Info (12134): Parameter "LPM_WIDTHD" = "14"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_65m.tdf
-    Info (12023): Found entity 1: lpm_divide_65m File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_divide_65m.tdf Line: 25
+    Info (12023): Found entity 1: lpm_divide_65m File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_divide_65m.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_9nh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_9nh File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/sign_div_unsign_9nh.tdf Line: 25
+    Info (12023): Found entity 1: sign_div_unsign_9nh File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/sign_div_unsign_9nh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_o2f.tdf
-    Info (12023): Found entity 1: alt_u_div_o2f File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/alt_u_div_o2f.tdf Line: 23
-Info (12130): Elaborated megafunction instantiation "CNTRL:inst9|lpm_divide:Mod0" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 236
-Info (12133): Instantiated megafunction "CNTRL:inst9|lpm_divide:Mod0" with the following parameter: File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 236
+    Info (12023): Found entity 1: alt_u_div_o2f File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/alt_u_div_o2f.tdf Line: 23
+Info (12130): Elaborated megafunction instantiation "CNTRL:inst9|lpm_divide:Mod0" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 236
+Info (12133): Instantiated megafunction "CNTRL:inst9|lpm_divide:Mod0" with the following parameter: File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 236
     Info (12134): Parameter "LPM_WIDTHN" = "7"
     Info (12134): Parameter "LPM_WIDTHD" = "7"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_a2m.tdf
-    Info (12023): Found entity 1: lpm_divide_a2m File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_divide_a2m.tdf Line: 25
+    Info (12023): Found entity 1: lpm_divide_a2m File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_divide_a2m.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_dkh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_dkh File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/sign_div_unsign_dkh.tdf Line: 25
+    Info (12023): Found entity 1: sign_div_unsign_dkh File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/sign_div_unsign_dkh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_0te.tdf
-    Info (12023): Found entity 1: alt_u_div_0te File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/alt_u_div_0te.tdf Line: 23
-Info (12130): Elaborated megafunction instantiation "CNTRL:inst9|lpm_divide:Div2" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 244
-Info (12133): Instantiated megafunction "CNTRL:inst9|lpm_divide:Div2" with the following parameter: File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 244
+    Info (12023): Found entity 1: alt_u_div_0te File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/alt_u_div_0te.tdf Line: 23
+Info (12130): Elaborated megafunction instantiation "CNTRL:inst9|lpm_divide:Div2" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 244
+Info (12133): Instantiated megafunction "CNTRL:inst9|lpm_divide:Div2" with the following parameter: File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 244
     Info (12134): Parameter "LPM_WIDTHN" = "14"
     Info (12134): Parameter "LPM_WIDTHD" = "4"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_ibm.tdf
-    Info (12023): Found entity 1: lpm_divide_ibm File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_divide_ibm.tdf Line: 25
+    Info (12023): Found entity 1: lpm_divide_ibm File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_divide_ibm.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_olh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_olh File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/sign_div_unsign_olh.tdf Line: 25
+    Info (12023): Found entity 1: sign_div_unsign_olh File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/sign_div_unsign_olh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_mve.tdf
-    Info (12023): Found entity 1: alt_u_div_mve File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/alt_u_div_mve.tdf Line: 23
-Info (12130): Elaborated megafunction instantiation "CNTRL:inst9|lpm_divide:Div1" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 237
-Info (12133): Instantiated megafunction "CNTRL:inst9|lpm_divide:Div1" with the following parameter: File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 237
+    Info (12023): Found entity 1: alt_u_div_mve File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/alt_u_div_mve.tdf Line: 23
+Info (12130): Elaborated megafunction instantiation "CNTRL:inst9|lpm_divide:Div1" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 237
+Info (12133): Instantiated megafunction "CNTRL:inst9|lpm_divide:Div1" with the following parameter: File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 237
     Info (12134): Parameter "LPM_WIDTHN" = "7"
     Info (12134): Parameter "LPM_WIDTHD" = "4"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_4am.tdf
-    Info (12023): Found entity 1: lpm_divide_4am File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_divide_4am.tdf Line: 25
+    Info (12023): Found entity 1: lpm_divide_4am File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_divide_4am.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_akh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_akh File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/sign_div_unsign_akh.tdf Line: 25
+    Info (12023): Found entity 1: sign_div_unsign_akh File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/sign_div_unsign_akh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_qse.tdf
-    Info (12023): Found entity 1: alt_u_div_qse File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/alt_u_div_qse.tdf Line: 23
-Info (12130): Elaborated megafunction instantiation "CNTRL:inst9|lpm_divide:Div5" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 247
-Info (12133): Instantiated megafunction "CNTRL:inst9|lpm_divide:Div5" with the following parameter: File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 247
+    Info (12023): Found entity 1: alt_u_div_qse File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/alt_u_div_qse.tdf Line: 23
+Info (12130): Elaborated megafunction instantiation "CNTRL:inst9|lpm_divide:Div5" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 247
+Info (12133): Instantiated megafunction "CNTRL:inst9|lpm_divide:Div5" with the following parameter: File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 247
     Info (12134): Parameter "LPM_WIDTHN" = "14"
     Info (12134): Parameter "LPM_WIDTHD" = "14"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_3dm.tdf
-    Info (12023): Found entity 1: lpm_divide_3dm File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_divide_3dm.tdf Line: 25
-Info (12130): Elaborated megafunction instantiation "CNTRL:inst9|lpm_divide:Div4" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 246
-Info (12133): Instantiated megafunction "CNTRL:inst9|lpm_divide:Div4" with the following parameter: File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 246
+    Info (12023): Found entity 1: lpm_divide_3dm File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_divide_3dm.tdf Line: 25
+Info (12130): Elaborated megafunction instantiation "CNTRL:inst9|lpm_divide:Div4" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 246
+Info (12133): Instantiated megafunction "CNTRL:inst9|lpm_divide:Div4" with the following parameter: File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 246
     Info (12134): Parameter "LPM_WIDTHN" = "14"
     Info (12134): Parameter "LPM_WIDTHD" = "10"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_vcm.tdf
-    Info (12023): Found entity 1: lpm_divide_vcm File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_divide_vcm.tdf Line: 25
+    Info (12023): Found entity 1: lpm_divide_vcm File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_divide_vcm.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_5nh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_5nh File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/sign_div_unsign_5nh.tdf Line: 25
+    Info (12023): Found entity 1: sign_div_unsign_5nh File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/sign_div_unsign_5nh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_g2f.tdf
-    Info (12023): Found entity 1: alt_u_div_g2f File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/alt_u_div_g2f.tdf Line: 23
-Info (12130): Elaborated megafunction instantiation "CNTRL:inst9|lpm_divide:Div0" File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 233
-Info (12133): Instantiated megafunction "CNTRL:inst9|lpm_divide:Div0" with the following parameter: File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/CNTRL.vhd Line: 233
+    Info (12023): Found entity 1: alt_u_div_g2f File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/alt_u_div_g2f.tdf Line: 23
+Info (12130): Elaborated megafunction instantiation "CNTRL:inst9|lpm_divide:Div0" File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 233
+Info (12133): Instantiated megafunction "CNTRL:inst9|lpm_divide:Div0" with the following parameter: File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/CNTRL.vhd Line: 233
     Info (12134): Parameter "LPM_WIDTHN" = "18"
     Info (12134): Parameter "LPM_WIDTHD" = "9"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "SIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "SIGNED"
     Info (12134): Parameter "LPM_HINT" = "LPM_REMAINDERPOSITIVE=FALSE"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_jpo.tdf
-    Info (12023): Found entity 1: lpm_divide_jpo File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_divide_jpo.tdf Line: 25
+    Info (12023): Found entity 1: lpm_divide_jpo File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_divide_jpo.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/abs_divider_sbg.tdf
-    Info (12023): Found entity 1: abs_divider_sbg File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/abs_divider_sbg.tdf Line: 29
+    Info (12023): Found entity 1: abs_divider_sbg File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/abs_divider_sbg.tdf Line: 29
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_80f.tdf
-    Info (12023): Found entity 1: alt_u_div_80f File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/alt_u_div_80f.tdf Line: 23
+    Info (12023): Found entity 1: alt_u_div_80f File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/alt_u_div_80f.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_abs_on9.tdf
-    Info (12023): Found entity 1: lpm_abs_on9 File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_abs_on9.tdf Line: 23
+    Info (12023): Found entity 1: lpm_abs_on9 File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_abs_on9.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_abs_8p9.tdf
-    Info (12023): Found entity 1: lpm_abs_8p9 File: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/db/lpm_abs_8p9.tdf Line: 23
+    Info (12023): Found entity 1: lpm_abs_8p9 File: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/db/lpm_abs_8p9.tdf Line: 23
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "F_D[7]" is stuck at VCC
     Warning (13410): Pin "F_D[6]" is stuck at GND
@@ -939,8 +939,8 @@ Info (21057): Implemented 1828 device resources after synthesis - the final reso
     Info (21061): Implemented 1744 logic cells
     Info (21062): Implemented 1 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 13 warnings
-    Info: Peak virtual memory: 4990 megabytes
-    Info: Processing ended: Sun Nov 22 11:46:19 2026
+    Info: Peak virtual memory: 5002 megabytes
+    Info: Processing ended: Tue Nov 24 20:01:40 2026
     Info: Elapsed time: 00:00:07
     Info: Total CPU time (on all processors): 00:00:12
 

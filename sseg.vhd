@@ -33,6 +33,7 @@ entity SSEG is port
 	);
 end SSEG;
 
+-- Used to generate the 7-segment display from a BCD
 architecture sseg_architecture of SSEG is
 
 begin

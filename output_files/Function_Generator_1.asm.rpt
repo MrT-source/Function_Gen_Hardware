@@ -1,5 +1,5 @@
 Assembler report for Function_Generator_1
-Sun Nov 22 11:47:33 2026
+Tue Nov 24 20:03:01 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/output_files/Function_Generator_1.sof
+  5. Assembler Device Options: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/output_files/Function_Generator_1.sof
   6. Assembler Messages
 
 
@@ -38,7 +38,7 @@ on the Quartus Prime software download page.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sun Nov 22 11:47:33 2026 ;
+; Assembler Status      ; Successful - Tue Nov 24 20:03:01 2026 ;
 ; Revision Name         ; Function_Generator_1                  ;
 ; Top-level Entity Name ; Function_Generator_1                  ;
 ; Family                ; Cyclone V                             ;
@@ -53,23 +53,23 @@ on the Quartus Prime software download page.
 +--------+---------+---------------+
 
 
-+--------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                  ;
-+--------------------------------------------------------------------------------------------+
-; File Name                                                                                  ;
-+--------------------------------------------------------------------------------------------+
-; C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/output_files/Function_Generator_1.sof ;
-+--------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                           ;
++-----------------------------------------------------------------------------------------------------+
+; File Name                                                                                           ;
++-----------------------------------------------------------------------------------------------------+
+; C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/output_files/Function_Generator_1.sof ;
++-----------------------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/TejN/Documents/Degree/ELEE1156/FUNCTION_GEN/output_files/Function_Generator_1.sof ;
-+----------------+-----------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                             ;
-+----------------+-----------------------------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x00C7F9B8                                                                                          ;
-; Checksum       ; 0x00C7F9B8                                                                                          ;
-+----------------+-----------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/TejN/Documents/Degree/ELEE1156/Function_Gen_Hardware/output_files/Function_Generator_1.sof ;
++----------------+--------------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                      ;
++----------------+--------------------------------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x00C7F9B8                                                                                                   ;
+; Checksum       ; 0x00C7F9B8                                                                                                   ;
++----------------+--------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -78,14 +78,14 @@ on the Quartus Prime software download page.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
-    Info: Processing started: Sun Nov 22 11:47:29 2026
+    Info: Processing started: Tue Nov 24 20:02:55 2026
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Function_Generator_2 -c Function_Generator_1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 5243 megabytes
-    Info: Processing ended: Sun Nov 22 11:47:33 2026
-    Info: Elapsed time: 00:00:04
+    Info: Processing ended: Tue Nov 24 20:03:01 2026
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:04
 
 
